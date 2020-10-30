@@ -9,6 +9,10 @@ const eventHolder = $('.container');
 
 //Function for rendering the schedule inputs
 const renderSchedule = () => {
+    //Changes the currentDay text to the curent date
+    $('#currentDay').text(date);
+
+    //Creates schedule blocks for the hours of 9 am to 5 pm
     for (let i = 9; i < 18; i++) {
         //Creates Bootstrap row and column
         let newRow = $(`<div class="row"></div>`);
