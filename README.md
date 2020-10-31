@@ -13,3 +13,4 @@ The goal of the project was to create an application that would allow the entry 
 ![GIF of Work Day Scheduler](./images/Work-Day-Scheduler.gif)
 
 ## Link to Deployed Application:
+https://carlschr.github.io/work-day-scheduler
