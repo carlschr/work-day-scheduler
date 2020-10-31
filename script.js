@@ -53,7 +53,7 @@ const renderSchedule = () => {
 //Function for finding the relation between the current hour and another hour
 const timeRelation = (hour) => {
     //The current hour
-    let currentTime = moment().hour() + 12;
+    let currentTime = moment().hour();
 
     //Returns a string describing the time of the event relative to the current hour
     if (+hour === currentTime) {
